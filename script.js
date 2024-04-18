@@ -1,5 +1,10 @@
 function makeid(l) {
-  // write your code here
+	let str="QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890";
+	let v="";
+	for(let i=0; i<l; i++){
+		v=v+str[i];
+	}
+	return v;
 }
 
 // Do not change the code below.
